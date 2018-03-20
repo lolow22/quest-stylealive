@@ -43,12 +43,17 @@
     <style name="Description" parent="Text">
             <item name="android:textColor">@android:color/darker_gray</item>
         </style>
-    <style name="Subtitle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_marginBottom">10dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@android:color/holo_red_dark</item>
-        <item name="android:textSize">24sp</item>
+   <style name="Subtitle">
+   <item name="android:layout_width">match_parent</item>
+   <item name="android:layout_height">wrap_content</item>
+   <item name="android:layout_marginBottom">10dp</item>
+   <item name="android:layout_marginTop">20dp</item>
+   <item name="android:background">@android:color/darker_gray</item>
+   <item name="android:padding">10dp</item>
+   <item name="android:textColor">@android:color/holo_red_dark</item>
+   <item name="android:textSize">24sp</item> 
+   
+   
         </style>
     <style name="Text">
         <item name="android:layout_width">wrap_content</item>
